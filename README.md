@@ -24,6 +24,8 @@ Copy the files to the respective locations according to the paths listed below:
   /usr/lib/udev/hwdb.d/61-eve-sensor.hwdb
 
   /usr/lib/udev/hwdb.d/61-eve-keyboard.hwdb
+
+  ~/.config/sway/config.d/chromebook.conf
 ```
 
 After installation of the files run
@@ -34,7 +36,7 @@ After installation of the files run
 
 This will update th hwdb to allow the accelerometer and keyboard to work correctly
 
-
+### audio works well without below changes on Manjaro wayland sway Mid 2024
 
 The audio drivers WILL NOT work with pipewire. They will give sound but its mostly slow playing and covered by white noise (you can try it if you like to see what im talking about) For this reason we must replace pipewire with pulseaudio. Of note, HDMI/DP Out is not working on Ubuntu 22.10 or later nor is it working under fedora systems but it does work with Ubuntu 22.04 and Linux Mint. (Those OSes have pulseaudio natively installed and maybe their configurations allow for HDMI/DP out to work but at this point I have not figured out how to get it working on newer versions where pulseaudio needs installation. I have also tried it under Arch. HDMI/DP does not work even with Pulseaudio natively installed.
 
