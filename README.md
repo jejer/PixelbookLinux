@@ -26,6 +26,8 @@ Copy the files to the respective locations according to the paths listed below:
   /usr/lib/udev/hwdb.d/61-eve-keyboard.hwdb
 
   ~/.config/sway/config.d/chromebook.conf
+  ~/.config/waybar/config.jsonc
+  ~/.config/waybar/scripts/clash.sh
 ```
 
 After installation of the files run
