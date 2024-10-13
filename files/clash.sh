@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ENABLED=🌐 
-DISABLED=🔴 
+ENABLED=🌐
+DISABLED=🔴
 
 if ss -tnulp|grep -q 7890; then
         ~/Downloads/clash-for-linux/shutdown.sh > /dev/null 2>&1

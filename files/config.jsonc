@@ -364,6 +364,8 @@
     "custom/clash": {
         "interval": "once",
         "signal": 17,
+        "format": "{} ",
+        "tooltip": false,
         "exec": "~/.config/waybar/scripts/clash.sh",
         "on-click": "~/.config/waybar/scripts/clash.sh; waybar-signal 17"
     }
